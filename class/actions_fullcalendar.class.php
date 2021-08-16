@@ -23,9 +23,7 @@
  *          Put some comments here
  */
 
-/**
- * Class Actionsfullcalendar
- */
+
 class Actionsfullcalendar
 {
 	/**
@@ -50,7 +48,7 @@ class Actionsfullcalendar
 	{
 	}
 
-	
+
 	function addCalendarChoice($parameters,&$object,&$action, $hookmanager)
 	{
 		global $conf;
@@ -71,7 +69,6 @@ class Actionsfullcalendar
 		global $conf;
 
 		$TContexts = explode(':', $parameters['context']);
-
 		if(in_array('agendalist', $TContexts) && ! empty($conf->global->FULLCALENDAR_ENABLE_EVENT_LIST_MULTIDATE_FILTER))
 		{
 			global $db;
@@ -141,5 +138,7 @@ class Actionsfullcalendar
 
 			return 0;
 		}
+		return 0;
 	}
+
 }

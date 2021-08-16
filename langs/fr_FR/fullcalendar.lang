@@ -39,3 +39,5 @@ fullcalendarSetupTask=Paramètres Fullcalendar Tâches
 FULLCALENDAR_ENABLE_TASKS=Activer l'affichage des tâches
 EditTask=Mettre à jour une tâche
 CantFetchTask=Impossible de charger la tâche
+
+FULLCALENDAR_SHOW_FK_ELEMENT= Afficher les tâche associé au projets
